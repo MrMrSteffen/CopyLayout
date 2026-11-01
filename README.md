@@ -1,7 +1,12 @@
 Plugin for [Musescore](musescore.org)
 
-This plugin exports layout breaks to all parts to keep a similar layout in all of them.
-It was created following [this thread](https://musescore.org/en/node/180806).
+This plugin copies the layout (page breaks, system breaks, etc.) from the current part to any other part.
+Original Plugin: [breaksExporter by ecstrema](https://github.com/ecstrema/breaksExporter).
+
+Open the part whose layout you like, run the plugin, tick the target part/s,
+press "Copy". Page breaks, system breaks and "keep measures on the same system"
+are copied measure by measure. Section breaks are never touched (they are shared
+between score and parts anyway). One Ctrl+Z undoes the whole operation.
 
 ## Usage:
 Select a layout break already in place in your score and run the plugin.
